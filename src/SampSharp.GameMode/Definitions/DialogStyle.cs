@@ -38,6 +38,16 @@ namespace SampSharp.GameMode.Definitions
         /// <summary>
         ///     A box with a caption, text, an password-inputbox and one or two buttons.
         /// </summary>
-        Password = 3
+        Password = 3,
+
+        /// <summary>
+        ///     This dialog style is similar to List, however columns (up to 4) can be defined to align information.
+        /// </summary>
+        TabList = 4,
+
+        /// <summary>
+        ///     This style is the same as TabList, however headers for each column can be defined at the start.
+        /// </summary>
+        TabListWithHeader = 5
     }
 }
